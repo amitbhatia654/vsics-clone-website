@@ -1,325 +1,354 @@
-  * {
-      margin: 0px;
-      padding: 0px;
-  }
-  
-  .header {
-      width: 100%;
-      height: 80px;
-      background-color: rgb(41, 37, 92);
-      display: flex;
-  }
-  
-  .left-header {
-      width: 50%;
-      color: white;
-      padding: 25px;
-      margin-left: 10px;
-  }
-  
-  .right-header {
-      width: 50%;
-      padding: 25px;
-      margin-left: 60px;
-      margin-left: 180px;
-  }
-  
-  .header-ul li {
-      list-style: none;
-      display: inline;
-      margin-left: 22px;
-      color: white;
-      font-size: 18px;
-  }
-  
-  .header-ul-right li {
-      list-style: none;
-      display: inline;
-      margin-left: 20px;
-  }
-  
-  .contact,
-  .fa-file-export {
-      color: white;
-      font-size: 20px;
-  }
-  
-  .fa-twitter,
-  .fa-download,
-  .fa-facebook-f,
-  .fa-file-zipper,
-  .fa-youtube,
-  .fa-instagram {
-      color: rgb(127, 129, 228);
-  }
-  
-  .menubar {
-      width: 100%;
-      height: 125px;
-      display: flex;
-      box-sizing: border-box;
-      position: sticky;
-      top: 0px;
-      background-color: white;
-  }
-  
-  .left-menubar {
-      width: 35%;
-  }
-  
-  .right-menubar {
-      width: 70%;
-      padding: 40px;
-      box-sizing: border-box;
-  }
-  
-  .logo {
-      margin-left: 50px;
-      margin-top: 20px;
-  }
-  
-  .menulist li,
-  a {
-      list-style: none;
-      display: inline;
-      text-decoration: none;
-      padding: 4px;
-      color: black;
-      font-weight: bold;
-      font-size: 18px;
-  }
-  
-  .menulist li,
-  a:hover {
-      color: rgb(86, 86, 189);
-  }
-  
-  #main-img {
-      width: 100%;
-  }
-  
-  .movingtext {
-      width: 100%;
-      height: 30px;
-      background-color: rgb(20, 20, 44);
-      display: flex;
-  }
-  
-  .moving-left {
-      width: 10%;
-  }
-  
-  .moving-middle {
-      width: 80%;
-  }
-  
-  .moving-right {
-      width: 10%;
-  }
-  
-  .moving-line {
-      color: white;
-      font-size: 20px;
-  }
-  
-  .highlight {
-      color: yellow;
-  }
-  
-  #about-college {
-      width: 100%;
-      height: 430px;
-      display: flex;
-      margin-top: 30px;
-  }
-  
-  .about-left {
-      width: 7%;
-  }
-  
-  .about-center {
-      width: 60%;
-  }
-  
-  .about-right {
-      width: 24%;
-      box-sizing: border-box;
-      margin-left: 30px;
-      overflow: scroll;
-      box-sizing: border-box;
-  }
-  
-  .about-rightlast {
-      width: 10%;
-  }
-  
-  #aboutus {
-      font-size: 26px;
-      color: rgb(22, 22, 77);
-      font-weight: bold;
-      padding: 15px;
-  }
-  
-  .text {
-      color: rgb(68, 68, 248);
-      font-size: 22px;
-      font-weight: lighter;
-      padding: 10px;
-      padding-right: 30px;
-  }
-  
-  .fa-building-columns {
-      font-size: 25px;
-  }
-  
-  .innertext {
-      color: rgb(60, 57, 233);
-      font-size: 20px;
-      padding: 10px;
-  }
-  
-  .fa-angles-right {
-      font-size: 13px;
-      color: black;
-  }
-  
-  .achivement {
-      color: rgb(22, 22, 77);
-      margin-left: 110px;
-  }
-  
-  .fa-graduation-cap {
-      font-size: 35px;
-      margin-top: 40px;
-  }
-  
-  .container {
-      width: 80%;
-      margin-left: 110px;
-      height: 550px;
-      display: grid;
-      grid-template-columns: 1fr 1fr 1fr;
-      grid-template-rows: 1fr 1fr 1fr;
-      grid-gap: 25px 25px;
-      margin-top: 60px;
-  }
-  
-  .box {
-      box-sizing: border-box;
-      font-size: 27px;
-      display: flex;
-      background-color: rgb(253, 245, 245);
-      box-shadow: 2px 2px 2px 2px rgb(240, 231, 231);
-  }
-  
-  .box:hover {
-      background-color: #09b5db;
-      border-radius: 8px;
-      cursor: pointer;
-  }
-  
-  .inner-box {
-      margin-top: 60px;
-      margin-left: 20px;
-  }
-  
-  .inner-box1 {
-      width: 80px;
-      height: 80px;
-      padding: 22px;
-      box-sizing: border-box;
-      border-radius: 50%;
-      margin-left: 80px;
-      margin-top: 40px;
-      background-color: #c8e0e6;
-  }
-  
-  .course-container {
-      width: 85%;
-      height: 950px;
-      display: grid;
-      grid-template-columns: 400px 400px 400px;
-      grid-template-rows: 440px 440px;
-      grid-gap: 30px 30px;
-      margin: auto;
-      margin-top: 70px;
-  }
-  
-  .course-box {}
-  
-  .course-image {
-      margin-left: 30px;
-      margin-top: 30px;
-  }
-  
-  .course-type {
-      width: 130px;
-      height: 30px;
-      background-color: #09b5db;
-      color: white;
-      font-size: 20px;
-      padding-left: 20px;
-      margin-top: 25px;
-      margin-left: 30px;
-      padding-top: 5px;
-      display: flex;
-  }
-  
-  .course-type {
-      float: left;
-  }
-  
-  .duration {
-      float: right;
-      margin-top: 29px;
-      margin-right: 65px;
-      font-size: 18px;
-      font-weight: bold;
-  }
-  
-  .course-heading {
-      float: clear;
-  }
-  
-  .course-box:hover {
-      border-radius: 10px;
-      background-color: #09b5db;
-  }
-  
-  .scholorship {
-      width: 100%;
-      height: 400px;
-      display: flex;
-      margin-top: 50px;
-  }
-  
-  .s-left {
-      width: 50%;
-  }
-  
-  .s-right {
-      padding-left: 130px;
-  }
-  
-  .heading {
-      font-size: 33px;
-      padding-top: 70px;
-  }
-  
-  .matter {
-      padding-top: 20px;
-  }
-  
-  .applybtn {
-      font-size: 22px;
-      padding-left: 130px;
-      background-color: #09b5db;
-      border-radius: 40px;
-      padding: 20px;
-      box-sizing: border-box;
-      margin-top: 40px;
-      width: 250px;
-      color: white;
-      font-weight: bold;
-      cursor: pointer;
-  }
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+.header {
+  width: 100%;
+  height: 80px;
+  background-color: rgb(41, 37, 92);
+  display: flex;
+}
+
+.left-header {
+  width: 50%;
+  color: white;
+  padding: 25px;
+  margin-left: 10px;
+}
+
+.right-header {
+  width: 50%;
+  padding: 25px;
+  margin-left: 60px;
+  margin-left: 180px;
+}
+
+.header-ul li {
+  list-style: none;
+  display: inline;
+  margin-left: 22px;
+  color: white;
+  font-size: 18px;
+}
+
+.header-ul-right li {
+  list-style: none;
+  display: inline;
+  margin-left: 20px;
+}
+
+.contact,
+.fa-file-export {
+  color: white;
+  font-size: 20px;
+}
+
+.fa-twitter,
+.fa-download,
+.fa-facebook-f,
+.fa-file-zipper,
+.fa-youtube,
+.fa-instagram {
+  color: rgb(127, 129, 228);
+}
+
+.menubar {
+  width: 100%;
+  height: 125px;
+  display: flex;
+  box-sizing: border-box;
+  position: sticky;
+  top: 0px;
+  background-color: white;
+}
+
+.left-menubar {
+  width: 35%;
+}
+
+.right-menubar {
+  width: 70%;
+  padding: 40px;
+  box-sizing: border-box;
+}
+
+.logo {
+  margin-left: 50px;
+  margin-top: 20px;
+}
+
+.menulist li,
+a {
+  list-style: none;
+  display: inline;
+  text-decoration: none;
+  padding: 4px;
+  color: black;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.menulist li,
+a:hover {
+  color: rgb(86, 86, 189);
+}
+
+#main-img {
+  width: 100%;
+}
+
+.movingtext {
+  width: 100%;
+  height: 30px;
+  background-color: rgb(20, 20, 44);
+  display: flex;
+}
+
+.moving-left {
+  width: 10%;
+}
+
+.moving-middle {
+  width: 80%;
+}
+
+.moving-right {
+  width: 10%;
+}
+
+.moving-line {
+  color: white;
+  font-size: 20px;
+}
+
+.highlight {
+  color: yellow;
+}
+
+#about-college {
+  width: 100%;
+  height: 430px;
+  display: flex;
+  margin-top: 30px;
+}
+
+.about-left {
+  width: 7%;
+}
+
+.about-center {
+  width: 60%;
+}
+
+.about-right {
+  width: 24%;
+  box-sizing: border-box;
+  margin-left: 30px;
+  overflow: scroll;
+  box-sizing: border-box;
+}
+
+.about-rightlast {
+  width: 10%;
+}
+
+#aboutus {
+  font-size: 26px;
+  color: rgb(22, 22, 77);
+  font-weight: bold;
+  padding: 15px;
+}
+
+.text {
+  color: rgb(68, 68, 248);
+  font-size: 22px;
+  font-weight: lighter;
+  padding: 10px;
+  padding-right: 30px;
+}
+
+.fa-building-columns {
+  font-size: 25px;
+}
+
+.innertext {
+  color: rgb(60, 57, 233);
+  font-size: 20px;
+  padding: 10px;
+}
+
+.fa-angles-right {
+  font-size: 13px;
+  color: black;
+}
+
+.achivement {
+  color: rgb(22, 22, 77);
+  margin-left: 110px;
+}
+
+.fa-graduation-cap {
+  font-size: 35px;
+  margin-top: 40px;
+}
+
+.container {
+  width: 80%;
+  margin-left: 110px;
+  height: 550px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-gap: 25px 25px;
+  margin-top: 60px;
+}
+
+.box {
+  box-sizing: border-box;
+  font-size: 27px;
+  display: flex;
+  background-color: rgb(253, 245, 245);
+  box-shadow: 2px 2px 2px 2px rgb(240, 231, 231);
+}
+
+.box:hover {
+  background-color: #09b5db;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.inner-box {
+  margin-top: 60px;
+  margin-left: 20px;
+}
+
+.inner-box1 {
+  width: 80px;
+  height: 80px;
+  padding: 22px;
+  box-sizing: border-box;
+  border-radius: 50%;
+  margin-left: 80px;
+  margin-top: 40px;
+  background-color: #c8e0e6;
+}
+
+.course-container {
+  width: 85%;
+  height: 950px;
+  display: grid;
+  grid-template-columns: 400px 400px 400px;
+  grid-template-rows: 440px 440px;
+  grid-gap: 30px 30px;
+  margin: auto;
+  margin-top: 70px;
+}
+
+.course-image {
+  margin-left: 30px;
+  margin-top: 30px;
+}
+
+.course-type {
+  width: 130px;
+  height: 30px;
+  background-color: #09b5db;
+  color: white;
+  font-size: 20px;
+  padding-left: 20px;
+  margin-top: 25px;
+  margin-left: 30px;
+  padding-top: 5px;
+  display: flex;
+}
+
+.course-type {
+  float: left;
+}
+
+.duration {
+  float: right;
+  margin-top: 29px;
+  margin-right: 65px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.course-heading {
+  float: clear;
+}
+
+.course-box:hover {
+  border-radius: 10px;
+  background-color: #09b5db;
+}
+
+.scholorship {
+  width: 100%;
+  height: 400px;
+  display: flex;
+  margin-top: 50px;
+}
+
+.s-left {
+  width: 50%;
+}
+
+.s-right {
+  padding-left: 130px;
+}
+
+.heading {
+  font-size: 33px;
+  padding-top: 70px;
+}
+
+.matter {
+  padding-top: 20px;
+}
+
+.applybtn {
+  font-size: 22px;
+  padding-left: 130px;
+  background-color: #09b5db;
+  border-radius: 40px;
+  padding: 20px;
+  box-sizing: border-box;
+  margin-top: 40px;
+  width: 250px;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.footer {
+  background-color: rgb(38, 38, 92);
+  height: 300px;
+  margin-top: 30px;
+  display: flex;
+}
+
+.fbox {
+  height: 240px;
+  width: 200px;
+  font-size: 20px;
+  color: red;
+
+  margin-left: 120px;
+
+  margin-top: 20px;
+}
+
+.fbox ul {
+  color: wheat;
+  list-style: none;
+  color: red;
+  margin-top: 20px;
+}
+
+.list-unstyled li {
+  margin-top: 17px;
+  font-size: 19px;
+  color: wheat;
+}
